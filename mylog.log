@@ -1,0 +1,27 @@
+2022-04-19 16:54:08.796  INFO 17092 --- [main] c.cg.ProjectManagementSystemApplication  : Starting ProjectManagementSystemApplication using Java 17.0.2 on inlen8520015243 with PID 17092 (C:\Users\vhyndavi\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\ProjectManagementSystem\bin\main started by vhyndavi in C:\Users\vhyndavi\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\ProjectManagementSystem)
+2022-04-19 16:54:08.798  INFO 17092 --- [main] c.cg.ProjectManagementSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-19 16:54:09.517  INFO 17092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-19 16:54:09.602  INFO 17092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 10 JPA repository interfaces.
+2022-04-19 16:54:10.211  INFO 17092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2022-04-19 16:54:10.219  INFO 17092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-19 16:54:10.220  INFO 17092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-19 16:54:10.358  INFO 17092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-19 16:54:10.358  INFO 17092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1512 ms
+2022-04-19 16:54:10.517  INFO 17092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-19 16:54:10.572  INFO 17092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-19 16:54:10.722  INFO 17092 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-19 16:54:10.824  INFO 17092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-19 16:54:11.143  INFO 17092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-19 16:54:11.161  INFO 17092 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-04-19 16:54:11.294  WARN 17092 --- [main] org.hibernate.cfg.AnnotationBinder       : HHH000457: Joined inheritance hierarchy [com.cg.entities.Person] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+2022-04-19 16:54:12.204  INFO 17092 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-19 16:54:12.213  INFO 17092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-19 16:54:13.095  WARN 17092 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-19 16:54:13.878  INFO 17092 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-04-19 16:54:13.943  INFO 17092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2022-04-19 16:54:13.955  INFO 17092 --- [main] c.cg.ProjectManagementSystemApplication  : Started ProjectManagementSystemApplication in 5.565 seconds (JVM running for 6.273)
+2022-04-19 19:20:56.925  WARN 17092 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m41s807ms252µs300ns).
+2022-04-19 19:21:25.999  INFO 17092 --- [RMI TCP Connection(113)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-19 19:21:26.031  INFO 17092 --- [RMI TCP Connection(113)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-19 19:21:26.033  INFO 17092 --- [RMI TCP Connection(113)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-19 19:21:26.041  INFO 17092 --- [RMI TCP Connection(113)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
